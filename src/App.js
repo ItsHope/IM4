@@ -9,9 +9,10 @@ function App() {
         
         React Website</h1>
       <section class ="header">
+       <li><a href="./componets/blogs/Blogpage">Homepage</a></li>
        <li><a href="./componets/blogs/Blogpage">Blogs</a></li>
-       <li><a href="./componets/blogs/Blogpage">Blogs</a></li>
-       <li><a href="./componets/blogs/Blogpage">Blogs</a></li>
+       <li><a href="./componets/blogs/Blogpage">Design</a></li>
+       <li><a href="./componets/blogs/Blogpage">Internet Artwork</a></li>
                
       </section>
 
