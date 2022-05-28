@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 //import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import './components/style/Navbar.css'
 
 ReactDOM.render(
 

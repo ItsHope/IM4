@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Crimson Text', serif;
+}
+
+body {
+background-image: url(./components/Assets/Background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+}
+
 .websiten{
   
   padding: 40px;

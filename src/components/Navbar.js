@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 export const Navbar = () => {
     return (
-        <div>
+        <div className="sum">
             <h1 className="logo">
                LuxLens
             </h1>
