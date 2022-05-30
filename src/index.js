@@ -1,27 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 //import reportWebVitals from './reportWebVitals';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import './components/style/Navbar.css'
-
-ReactDOM.render(
-
-  <Router>
-    <Routes>
-      <Route path='/' element={<App/>}/>
-    </Routes>
-  </Router>,
-  document.getElementById('root')
-);
-
-//const root = ReactDOM.createRoot(document.getElementById('root'));
-//root.render(
-//  <React.StrictMode>
- //   <App />
- /// </React.StrictMode>
-//);
 
 
-//reportWebVitals();
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
