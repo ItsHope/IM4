@@ -39,6 +39,27 @@
     margin: 0 10px;
     cursor: pointer;
 }
+.home:hover {
+    padding: 10px 20px;
+    filter: opacity(.5);
+
+}
+.blogs:hover{
+    padding: 10px 20px;
+    filter: opacity(.5);
+
+}
+.design:hover {
+    padding: 10px 20px;
+    filter: opacity(.5);
+
+}
+.internetartwork:hover{
+    padding: 10px 20px;
+    filter: opacity(.5);
+
+}
+
 .responsive-menu-icon {
     display: none;
 }

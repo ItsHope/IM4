@@ -12,19 +12,19 @@ const Navbar = () => {
         onClick={() => setIsResponsive(false)}
         > 
         <Link to="/" className="home">
-        <li>Home</li>
+        <li>HOME</li>
         </Link>
 
         <Link to="/blogs" className="blogs">
-        <li>Blogs</li>
+        <li>BLOGS</li>
         </Link>
 
         <Link to="/design" className="design">
-        <li>Design</li>
+        <li>DESIGN</li>
         </Link>
 
         <Link to="/internetartwork" className="internetartwork">
-        <li>InternetArtwork</li>
+        <li>INTERNET <br></br>ARTWORK</li>
         </Link>
         </ul>
         <button className="responsive-menu-icon"

@@ -1,10 +1,12 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import Home from "./components/Home"
-import Blogs from "./components/Blogs"
-import Design from "./components/Design"
-import InternetArtwork from "./components/InternetArtwork"
+import Home from "./components/Pages/Home"
+import Blogs from "./components/Pages/Blogs"
+import Design from "./components/Pages/Design"
+import InternetArtwork from "./components/Pages/InternetArtwork"
 import Navbar from "./components/Navbar/Navbar"
+
+
 
 
 
