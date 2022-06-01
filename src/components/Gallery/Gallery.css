@@ -51,7 +51,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: #ffd90080;
+    background-color: rgba(255, 255, 255, 0.719);
     transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out ;
     visibility: hidden;
     opacity:0;
