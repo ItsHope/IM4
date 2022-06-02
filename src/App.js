@@ -5,6 +5,7 @@ import Blogs from "./components/Pages/Blogs"
 import Design from "./components/Pages/Design"
 import InternetArtwork from "./components/Pages/InternetArtwork"
 import Navbar from "./components/Navbar/Navbar"
+import Footer from "./components/footer"
 
 
 
@@ -32,6 +33,7 @@ const App = () =>  {
           <InternetArtwork/>
           </Route>
       </Switch>
+      <Footer/>
     </Router>
   );
 }
