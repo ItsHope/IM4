@@ -1,4 +1,45 @@
-.home {
+ .i {
+     display: flex;
+     height: 100vh;
     
-    
-}
+
+ }
+
+ .i-left {
+    flex: 1;
+ }
+
+ .i-right {
+    flex: 1;
+ }
+
+ .i-left-wrapper {
+     padding: 100px;
+ }
+ i.text {
+     height: 70px;
+     overflow: hidden;
+ }
+ 
+
+ .i-text-wrapper {
+     height: 100%;
+     animation: move 10s ease-in-out infinite alternate;
+ }
+ @keyframes move {
+    100%{transform: translateX(-50px);}
+    75%{transform: translateX(-100px);}
+    50%{transform: translateX(-150px);}
+    25%{transform: translateX(-200px);}
+ }
+ .i-text-item {
+     
+     height: 50px;
+     font-size: 20px;
+     font-weight: lighter;
+     color: rgb(88, 87, 87);
+     display: flex;
+     align-items: center;
+ }
+
+

@@ -1,16 +1,19 @@
 import React from 'react'
+import "../styles/App.css"
+import Tabs from "./Tabs"
+
 
 const Blogs = () => {
-    return (
-        <div> <h1>BLOGS</h1>\
-        <h2>Reflection 1</h2>
-        <h2>Reflection 2</h2>
+    return ( 
 
+      <div className="container">
+          <Tabs/>
+        <div>DESIGN</div>
 
         </div>
-
-
+        
     )
 }
 
 export default Blogs
+

@@ -1,0 +1,83 @@
+body {
+    background: #141100;
+}
+.c {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1300px;
+    height: 1700px;
+    background: #b3b3b3;
+    margin: 100px auto 0;
+    word-break: break-all;
+    border: 1px solid rgba(54, 47, 27, 0.274);
+  }
+  
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+  
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    background: rgba(105, 92, 92, 0.322);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  .tabs:not(:last-child){
+    border-right: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  
+  .active-tabs  {
+    background: white;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background:#ffd90080 ;
+  }
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: rgb(192, 185, 185);
+    padding: 50px;
+    width: 100%;
+    height: 60%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 500px;
+    height: 5px;
+    background: #222;
+    margin-bottom: 10px;
+  }
+  .content p {
+    width: 100%;
+    height: 10%;
+  }
+  .active-content {
+    display: block;
+  }

@@ -17,7 +17,14 @@
 .logo {
     font-size: 40px
 }
-
+.name {
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+   
+    
+   
+}
 .nav-links {
     display: flex;
     justify-content: flex-end;

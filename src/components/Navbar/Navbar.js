@@ -7,7 +7,7 @@ const Navbar = () => {
     const {isResponsive,setIsResponsive} = useState(false)
     return (
       <nav className="navbar"> 
-        <h3 className= "logo">LuxLens</h3>
+        <h3 className= "logo">LuxLens <br></br><a className="name">Hope Shembe, 1918429</a></h3>
         <ul className={isResponsive? "nav-links-responsive": "nav-links"}
         onClick={() => setIsResponsive(false)}
         > 
