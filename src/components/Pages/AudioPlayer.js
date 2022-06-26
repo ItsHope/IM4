@@ -1,15 +1,14 @@
 import React, {Component} from "react";
 import "../styles/App.css";
 import {Howl, Howler} from "howler";
-import BM from "../audio/BM.mp3";
-import Gallery from "..//Gallery/Gallery"
+import BM from "../Pages/BM.mp3";
 
 const audioClip = [
     {sound: BM, label: "BM"}
 
 ]
 
-class InternetArtwork extends Component {
+class AudioPlayer extends Component {
     SoundPlay = (src) => {
         const sound = new Howl({
             src
@@ -31,19 +30,11 @@ class InternetArtwork extends Component {
     }
     render() {
         Howler.volume(1.0)
-        return<div className="InternetArtwork">
+        return<div className="AudioPlayer"></div>
         {this.RenderButtonAndSound()}
-        <div>
-            <h1>
-                Low Exposure Aesthetic
-            </h1>
-        </div>
-        <Gallery/>
-        </div>;
     }
-    
 
     
 }
-export default InternetArtwork;
+export default AudioPlayer;
 

@@ -1,6 +1,11 @@
 body {
     background: #141100;
 }
+
+h1 {
+  color: #b3b3b3;
+  
+}
 .c {
     display: flex;
     flex-direction: column;
