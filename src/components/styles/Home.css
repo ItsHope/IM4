@@ -24,6 +24,7 @@
 
  .i-text-wrapper {
      height: 100%;
+     font-weight: bold;
      animation: move 10s ease-in-out infinite alternate;
  }
  @keyframes move {

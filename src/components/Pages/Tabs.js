@@ -1,5 +1,8 @@
 import {useState} from "react";
 import "../styles/App.css"
+import Slider from "../Pages/Slider";
+import Slider2 from "../Pages/Slider2";
+
 
 function Tabs() {
     const [toggleState, setToggleState] = useState(1);
@@ -35,103 +38,18 @@ function Tabs() {
           <div
             className={toggleState === 1 ? "content  active-content" : "content"}
           >
-            <h2>Blog 1</h2> 
-            <h3>Critical Writing: net/web Art</h3>
-            <hr />
-            <p>
-            After intensively engaging with especially “The Work of Art in the age of the internet” my choice of net/web art was Indirect Flights. Mr. Benjamin mentioned in his essay, “The work of Art in the age of its mechanical reproduction” that it is almost human nature to want to copy something so historically the idea of reproduction is not new.
-            </p>
-           
-            <p>
-            The authenticity of an art work is what Benjamin describes as the aura, “a phenomena’s uniqueness” (Benjamin, 2015). His theory suggests that every original piece of art has an aura, for example, “the aura of the sunset, the aura of nature”’ (Benjamin, 2015) that cannot be replaced. Therefore mechanically or technologically reproduced art refuse to appreciate or acknowledge that aura.
-            </p>
-
-           
-            <p>
-           Benjamin thinks highly of old forms of art, he describes them as creativity and genius. This is because of the value and mystery embedded in them and reproduction undoes that appreciation or status.
-            </p>
-            <p>
-            The "Work Of Art In The Age Of The Internet" acknowledges the aura that Benjamin talks about but suggests that art on the internet still has evidence of “contemplative emersion” that usually is lost in mechanically reproduced art. This is because when viewing art on the internet we still somehow find ourselves staring.
-            </p>
-
-            <p>
-            This "contemplative imersion" is possible because the internet offers tools that allow art to be viewed in different new ways. Digital art pieces can be viewed with music to assist with immersion  just like my case study Indirect Flights.
-            </p>
-
-            <p>
-            Along with the music, I was also able to use my cursor to move the art piece around the screen, I could do it how I chose to. For example I could move it quickly and slowly right after,  which gave a new layer to the art or essentially produced a “new artform” because I was seeing the artwork in motion. This is something that would not be possible if the work of art was not on the internet. 
-            </p>
-
-            <p>
-            Another tool that the internet offers,  is the ability to view art so closely that you can see the smallest details, “the display system has changed, you see the work better, close ups and etc.” (Carrier, 2020). Art on the internet today has taken this to a whole different level.
-            </p>
-            <p>
-            There are zooming in and out tools that give the viewer the ability to engage with art like never before and completely indulge in the process.
-            </p>
-            <p>
-            Danae mentioned that net art today can be seen as clunky, old fashioned or uncool. But I argue that, a piece like Indirect Flight, being able to interact with the artwork in new ways can be seen as a future improvement. The piece is layered with photos, a zooming in and out tool would have been so ideal. With that being said I still think the layers come together so nicely and I was still able to see and appreciate its beauty.
-            </p>
-
-            <p>
-            References
-            </p>
-            <p>
-                1.W (1935). The Work of Art in the Age of Mechanical Reproduction. Translated by J. A. Underwood, Penguin Books (2008).
-            </p>
-            <p>
-             2.  D (2020). The Work of Art in the Age of the internet.
-            </p>
-            <p>
-            3. Danae (2019). Net Art, Post-internet Art, New Aesthetics: The Fundamentals of Art on the Internet
-            </p>
-
-        
+           <Slider/>
             
             
             
-            <h2>Blog 2</h2> 
-
-            <p>
-
-            </p>
 
           </div>
   
           <div
             className={toggleState === 2 ? "content  active-content" : "content"}
           >
-            <h2>Assignment 1 Reflection. </h2>
-            <hr />
-            <p>
-            Through this assignment, I was first introduced to React and JSX. It was challenging for me to do the technical aspect of the assignment and I realized that I had not spent enough time preparing for the assignment. A react website is very different from a normal website and the rules are different. I do realize that I did not use the privilege of consulting with my tutors when there was still time. 
-            </p>
-
-            <p> 
-            Although I created my website and coded for it, styled it and etc. I was not acknowledging “react rules” and therefore was unable to get some functionalities. For example, inserting a picture or creating a background image in a normal html website is done in the css file while inserting one in a react website would be done in a jsx file with back ticks that were also new to me too. 
-            </p>
-             <p>
-             I quickly had to learn these new things, hooks, using the terminal and etc. I had always pushed my code to GitHub from the GitHub application (GitHub Desktop) from my pc and never needed to use the terminal before now. This was a lot of new information for me all at one with little time. I attempted to learn but I ended up creating more errors while simply trying to deploy my website to GitHub pages. As a result I neglected the theory part of the assignment because my website wasn’t appearing although I was coding for it. As a result I never managed to submit. 
-             </p>  
-             <p>
-             In conclusion assignment one was my first attempt with react, I planned to do better with assignment 2. 
-             </p>
-
-             <h2>Assignement 2 Reflection</h2>
-
-             <p>
-             Through assignment 2, I was able to deploy a website for the first time with the help of my tutors and therefore able to have a bit of understanding in regards to react. I went through all the videos provided and things were starting to make sense. I built the prototype of my website. I still had a lot of hiccups along the way and I had to do extensive research. However assignment 2 proved to be overwhelming because of the workload. I essentially had to do assignment 1 and 2 in one go. 
-             </p>
-
-             <p>
-             I realized that I was working hard and not smart, I wanted to check off everything off of the brief and realized I could not.  Because I was actually coding for the assignment I faced some technical issues. I wanted an animation on my homepage/landing page. The animation I have right now is not the idea I had, I plan to rectify this on my next assignment. 
-             </p> 
-             <p> 
-             And for my internet artwork, I have exactly what I want in terms of being able to display the images closely but because I am working with images that are not mine. I need to reference and mention the owners. My plan is to add the reference to the website of which the image is from when you view it. I am still trying to work around that. My prototype is also a small percentage of what the ideal internet artwork will look like but I am confident in achieving what I want to do after planning it what on paper. 
-             </p>
-
-             <p> 
-             I also spent an awful amount creating tabs for the website’s blogs. I’ve always thoughts tabs work well when arranging a lot of content neatly. This was my first time using “States”. In conclusion assignment 2 taught me a lot and I got the opportunity to catch up with my classmates even though the assignment is incomplete.  
-             </p>
+              <Slider2/>
+            
           </div>
   
           <div
@@ -154,8 +72,8 @@ function Tabs() {
             </p>
 
         <section>
-        <img src={require('../Img/facebookmosaic.jpg')} height={200} width={600}/>
-        <img src={require('../Img/ff.png')} height={400} width={600}/>
+        <img src={require('../Img/facebookmosaic.jpg')} height={100} width={300}/>
+        <img src={require('../Img/ff.png')} height={200} width={400}/>
         </section>
         <p>
         On the page they’ll also be music/commentary that you can play in the background while viewing all the images for possible immersion.  
@@ -165,6 +83,70 @@ function Tabs() {
         <p>
         My prototype is a few pictures of the low exposure aesthetic, I’ve demonstrated how the images are going to be viewed from the mosaic. The columns have been created. I just need to start adding the pictures strategically. 
         </p>
+
+        <div>
+            <h3>Rationale</h3>
+
+            <p>
+            My initial idea for my internet artwork stemmed around the fascination of this aesthetic trend. Firstly I think that the pictures are beautiful, my real goal was to showcase what this trend is, that seems to be taking over social media. My second thing after concluding on wanting to display the pictures was to think about how I want to display the pictures
+        </p>
+        <p>
+        I wanted to do it creatively. Because my whole website implements this aesthetic, it came natural for me to want to  put effort in my gallery The content creators that follow this trend evidently put time into the photos, everything is placed strategically, the edit, just how much of low exposure is enough and how much is too low or too dark and etc. I’m fascinated by content creation and even more fascinated by what trends mean to us in 2022.
+        </p>
+        <p>
+        Every time that there’s a new social media trends, a decent amount of people follow it or at-least absorb it. Someone else might see doing so as a waste of time but there’s something happening truly special with social media trends. An example is the Project 50 challenge which arguably has a positive effect from the low exposure trend 
+        </p>
+        <p>
+        The Project 50 challenge is a wellness project that is taking place online, where people post their healthy meals, skincare and morning routine videos. What I ate today videos, yoga and workout videos. In the bigger scheme of things, this is a good thing. Through the aesthetic this trend is supposed to inspire you. Many argue that no one really lives like that or eats a clean breakfast everyday and it’s all fake. I believe it has a chain reaction and a positive reaction to some people even though the creator is only capturing for social media.
+        </p>
+        <p>
+        Not everyone but Some people can get positive results and improve their lives and experience positive change as a result of the aesthetic. These trends that come in every other year may just be social media trends but for a few individuals they actually do work and that’s where social medias beauty lies. 
+        </p>
+
+        <p>
+        The beauty of having access to the internet. Bryan Cantrill said “Facebook affectively is the internet, it is by far the dominant way of getting to the internet” (Cantril, 2019). My internet artwork is a mosaic Facebook logo gallery and I could not see it more fitting, the logo, to represent social media. 
+        </p>
+        <br></br>
+
+        <div className="reflection">Internet Artwork Reflection </div>
+
+        <p>
+        My internet artwork is how I wanted it to be. I feel I was able to do what I wanted to do. I can also acknowledge that there are better ways, more technical ways I could have implemented my mosaic. Like using an algorithm or pattern of some sort. Probably arrays, but because of technical difficulties and my level of coding I went around things more strategic. </p>
+        
+        <p>
+        I planned out the number of pictures on paper, continued to count and decided where the real pictures would be. My mosaic has real pictures of the aesthetic trend, 35 pictures in total. Then there are the remaining white pictures that assisted me to bring my vision to life. 
+I will admit that my way of doing it was tedious and I often made a lot of mistakes and I’d have to count again and get it right. I wish I could have implemented my vision of the mosaic without the white images but I don’t know where I would have started. I also manipulated the curve of the F on my own, there is no code for that. 
+
+        </p>
+
+        <p>
+        Things I would improve in the future include challenging myself more technically. I added an audio button for sound successfully like how I wanted to. That was an addition to my internet artwork so I do feel like it is more of a prototype than a finished product. I could have styled it more and made it look more like a part of the gallery. 
+        </p>  
+        <p>
+        I also see a space for growth in terms of being able to pause the music because currently the music does not pause or stop playing until all 40 seconds of the sound is done. 
+
+I only edited and merged my voicenote from a friend and the free instrumental of Harry Styles “As it was” for my sound. I chose the song because it is popular around this aesthetic, especially Instagram reels. 
+
+        </p>
+
+        <p>
+        Free copyright Instrumental: <link>https://www.youtube.com/watch?v=EXqDNzM8n-A </link>
+        </p>
+
+        <p>
+            Picture references
+            <link>
+            https://www.pinterest.co.uk/hopeshembe/_saved/
+            </link>
+        </p>
+
+
+
+
+
+
+       
+        </div>
           </div>
         </div>
       </div>

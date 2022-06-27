@@ -5,7 +5,7 @@ import BM from "../audio/BM.mp3";
 import Gallery from "..//Gallery/Gallery"
 
 const audioClip = [
-    {sound: BM, label: "BM"}
+    {sound: BM, label: "Play Sound"}
 
 ]
 
@@ -22,10 +22,12 @@ class InternetArtwork extends Component {
     RenderButtonAndSound = () => {
         return audioClip.map((soundObj, index) => {
             return(
+                <div class="container"> 
                 <button key={index} onClick={() => this.SoundPlay(soundObj.sound)}>
                   {soundObj.label}
 
                 </button>
+                </div>
             )
         })
     }
@@ -39,8 +41,14 @@ class InternetArtwork extends Component {
             </h1>
         </div>
         <Gallery/>
+
+        
         </div>;
+
+
     }
+
+    
     
 
     
