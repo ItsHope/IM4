@@ -129,16 +129,17 @@ I only edited and merged my voicenote from a friend and the free instrumental of
 
         </p>
 
-        <p>
-        Free copyright Instrumental: <link>https://www.youtube.com/watch?v=EXqDNzM8n-A </link>
-        </p>
+
 
         <p>
-            Picture references
-            <link>
-            https://www.pinterest.co.uk/hopeshembe/_saved/
-            </link>
+        Free copyright Instrumental: https://www.youtube.com/watch?v=EXqDNzM8n-A
         </p>
+        <p>
+            Pictures references 
+        https://www.pinterest.co.uk/hopeshembe/_saved/
+        </p>
+
+       
 
 
 
